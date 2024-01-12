@@ -1,0 +1,38 @@
+.about{
+    width: 100%;
+    margin: 100px 0;
+    padding: 30px;
+    background-color: var(--surface);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    div{
+        p{
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            text-align: justify;
+
+            a{
+                text-decoration: none;
+                color: var(--accent);
+                font-weight: 700;
+                transition: all 0.3s ease-in-out;
+
+                &:hover{
+                    background-color: var(--accent);
+                    color: var(--onAccent);
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.contact{
+    width: 100%;
+    min-width: 90vw;
+    padding: 30px;
+    background-color: var(--surface);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    form{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        mat-form-field{
+            width: 100%;
+            mat-label{
+                color: var(--onSurface);
+            }
+            input, textarea{
+                width: 100%;
+                color: var(--onSurface);
+                
+            }
+            textarea{
+                min-height: 100px;
+            }
+        }
+
+        button{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+}

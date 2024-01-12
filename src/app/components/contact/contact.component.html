@@ -1,0 +1,18 @@
+<section class="contact">
+    <form [formGroup]="formContact">
+        <mat-form-field appearance="outline">
+            <mat-label>Nombre</mat-label>
+            <input matInput formControlName="name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Correo</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mensaje</mat-label>
+            <textarea matInput formControlName="message"></textarea>
+        </mat-form-field>
+
+        <button mat-raised-button color="accent" (click)="send()">Enviar</button>
+    </form>
+</section>
