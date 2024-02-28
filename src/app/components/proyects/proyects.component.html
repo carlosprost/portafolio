@@ -1,1 +1,13 @@
-<p>proyects works!</p>
+<section class="proyects">
+<h3>Projects</h3>
+  @defer (on viewport) { 
+   @if (grid) {
+    <app-grid></app-grid>
+  }@else {
+  <app-carrousell></app-carrousell>
+  }
+  }
+  @placeholder {
+  <span>is Loading...</span>
+  }
+</section>

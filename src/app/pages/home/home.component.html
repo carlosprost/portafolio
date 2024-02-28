@@ -2,11 +2,15 @@
   <section class="home-toolbar">
     <app-toolbar></app-toolbar>
   </section>
-  <header>
+  <header (window:scroll)="position($event)">
     <app-header id="home"></app-header>
   </header>
   <main>
-    <app-about id="about"></app-about>
+    <div class="sections">
+      <app-about id="about"></app-about>
+      <app-skills id="skills"></app-skills>
+      <app-proyects id="projects"></app-proyects>
+    </div>
     <app-contact id="contact"></app-contact>
   </main>
   <footer>

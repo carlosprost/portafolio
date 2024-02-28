@@ -9,19 +9,19 @@
 
 // Custom Theming for Angular Material
 :root {
-  --primary: #3B3486;
+  --primary: #24128a;
   --onPrimary: #fff;
 
-  --secondary: #864AF9;
+  --secondary: #4a4af9;
   --onSecondary: #fff;
 
   --accent: #F8E559;
   --onAccent: #000;
 
-  --background: #332941;
+  --background: #212337;
   --onBackground: #fff;
 
-  --surface: #54446c;
+  --surface: #353870;
   --onSurface: #fff;
 
   --error: #b00020;
@@ -33,7 +33,7 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$portfolio-primary: mat.define-palette(mat.$purple-palette, A400, A100, A700);
+$portfolio-primary: mat.define-palette(mat.$indigo-palette, A400, A100, A700);
 $portfolio-accent: mat.define-palette(mat.$yellow-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).

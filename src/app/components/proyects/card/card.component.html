@@ -1,1 +1,12 @@
-<p>card works!</p>
+<section class="card-component">
+    <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{ img }}</mat-card-title>
+        </mat-card-header>
+        <img matCardImage [src]="routeImg" />
+        <mat-card-content> {{ content }} </mat-card-content>
+        <mat-card-actions align="end">
+          <app-btns [hrefDeploy]="hrefDeploy" [hrefCode]="hrefCode"></app-btns>
+        </mat-card-actions>
+      </mat-card>
+</section>

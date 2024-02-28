@@ -1,0 +1,10 @@
+.grid-proyects{
+  width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
